@@ -9,7 +9,7 @@
 4. ПКМ по пиктограмме OS -> Запустить
 5. ПКМ по пиктограмме OS -> Дополнительно -> Консоль
 6. Перейти в директорию %/OpenServer/domains/%
-7. В консоли написать 'git clone https://github.com/RazperSurp/lemon-messenger.git'
+7. В консоли написать 'git clone https://github.com/RazperSurp/project-2029.git'
 8. В консоли написать 'composer update'
 9. ПКМ по пиктограмме OS -> Перезапустить
-10. В адресную строку в браузере вставить 'lemon-messenger/'
+10. В адресную строку в браузере вставить 'project-2029/'

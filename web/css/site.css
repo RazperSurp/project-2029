@@ -82,3 +82,18 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+/* th, 
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+th a {
+    color: black !important;
+    pointer-events: none !important;
+}
+
+th a:hover {
+    text-decoration: none !important;
+} */

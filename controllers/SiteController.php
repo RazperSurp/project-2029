@@ -10,6 +10,10 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 
+use app\models\GoodsType;
+use app\models\search\GoodsSearch;
+use yii\data\ActiveDataProvider;
+
 class SiteController extends Controller
 {
     /**
@@ -121,8 +125,17 @@ class SiteController extends Controller
      *
      * @return string
      */
-    public function actionAbout()
-    {
-        return $this->render('about');
+
+    /**
+    *public function actionAbout()
+    *{
+        *return $this->render('about');
+    *}
+    */
+
+    public function actionAbout() {
+        $dataProvider = GoodsSearch::search();
+
+        return $this->render('about',['dataProvider'=>$dataProvider]);
     }
 }
